@@ -243,6 +243,12 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Sistema cotizaciones integrado
 - 99.97% uptime
 
+  #### **TM Tracking** ✅ Producción
+- Script JavaScript compilado, container-based (ID único TM-ABC123 por usuario)
+- Eventos → POST /track/{container_id} → CAPI Worker → capi_events_db, status='pending'
+- Compatible con integraciones: Facebook, Google, TikTok, Custom (automáticamente enrutados)
+- Costo: Incluido en infraestructura base ($65-95 USD/mes infrastructure total)
+
   #### **TevezMarketing-GEO Plugin**
 - REST API + Cache en D1, Worker genera metadatos adaptativos (geo, UTM, device, segmentos)
 - JSON-LD optimizado para IA + inyección asíncrona en DOM (no bloquea render)
