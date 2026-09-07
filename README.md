@@ -138,7 +138,7 @@ class TevezMarketing:
 
 ---
 
-### **2. 📱 Dashboard de Análisis de Publicidad**
+### **2. 📱 TM Analitc**
 | Aspecto | Detalles |
 |---------|----------|
 | **Descripción** | Panel de control real-time para Google Ads, Meta Ads, TikTok Ads |
@@ -149,7 +149,7 @@ class TevezMarketing:
 
 ---
 
-### **3. 🤖 Sistema de WhatsApp Marketing Automático**
+### **3. 🤖 TM Quotes**
 | Aspecto | Detalles |
 |---------|----------|
 | **Descripción** | Automatización de mensajes WhatsApp con seguimiento y CRM integrado |
