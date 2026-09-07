@@ -217,19 +217,19 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Reportes exportables (PDF/Excel)
 - Costo: $65-95 USD/mes (vs $1,200+ HubSpot)
 
-#### **TevezMarketing-RSS v2.5.0** ✅
+#### **TevezMarketing-RSS Plugin** ✅
 - Gestión centralizado de feeds RSS
 - Publicación automática a WordPress + canales
 - 500+ feeds/mes, 99.8% fetch rate
 - Uso: Monitoreo competencia, distribución news
 
-#### **TevezMarketing Dynamics v3.1.0** ✅ (6+ meses estable)
+#### **TevezMarketing Dynamics Plugin** ✅ (6+ meses estable)
 - Personalización dinámica en 10ms
 - 42 variantes por cliente (keyword × ubicación × dispositivo × hora × origen)
 - Resultados: +128% conversión, -55% CPA (Meta), -44% CPA (Google)
 - Integración Google Ads loop cerrado
 
-#### **CTA Inteligente** ✅
+#### **TevezMarketing CTA Plugin** ✅
 - Botones cambian por día/hora/fecha/comportamiento
 - Lunes = "Comencemos", Viernes = "Cierra la semana"
 - 9am-12pm = Llamada, 6pm-11pm = "Contacto mañana"
@@ -242,6 +242,12 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Alertas real-time (abrió propuesta, lead calienta, caídos)
 - Sistema cotizaciones integrado
 - 99.97% uptime
+
+  #### **TevezMarketing-GEO Plugin**
+- REST API + Cache en D1, Worker genera metadatos adaptativos (geo, UTM, device, segmentos)
+- JSON-LD optimizado para IA + inyección asíncrona en DOM (no bloquea render)
+- Metadatos por post (metabox editor), fallbacks configurables, seguridad HMAC SHA256
+- Costo: Incluido en infraestructura base ($65-95 USD/mes infrastructure total)
 
 ### Seguridad & Cumplimiento
 - TLS 1.3 + AES-256 encriptación
