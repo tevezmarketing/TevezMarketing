@@ -285,7 +285,7 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Asignar % a cada canal según participación real
 - Ejemplo real: 20% Meta + 20% Google + 30% Email + 30% Contenido = $10k venta
 
-### CAPI Integración TM Traking
+### TM Traking (CAPI)
 - Problema: iOS 14+ bloqueó pixels, Meta pierde 30-40% conversiones
 - Solución: Enviar conversiones desde servidor a Meta (server-to-server)
 - Resultado: Recuperar conversiones perdidas, algoritmo optimiza mejor
