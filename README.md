@@ -33,7 +33,7 @@ class TevezMarketing:
             "💰 Ecosistemas de conversión de alto rendimiento",
             "📊 Atribución multi-touch y ROI verificable",
             "🤖 Agentes autónomos (Tevia Chat, Scoring, Finance)",
-            "🌍 Especialización regional (Tolima: Ibagué, Lérida, Honda, Mariquita)"
+            "🌍 Especialización regional (Tolima: Ibagué, Lérida, Honda, Mariquita, Libano)"
         ]
     
     def value_proposition(self):
@@ -41,7 +41,7 @@ class TevezMarketing:
             "promise": "Tu dinero = Resultados verificables",
             "guarantee": "El aliado tecnológico del Tolima",
             "commitment": "Apoyo gratuito a emisoras comunitarias y ONGs",
-            "diferencial": "Cero dependencia de SaaS — infraestructura tuya"
+            "diferencial": "Cero dependencia de terceros — infraestructura para mis aliados"
         }
 ```
 
@@ -51,7 +51,7 @@ class TevezMarketing:
 
 > **Somos el aliado estratégico para empresas en el Tolima que necesitan máquinas de ventas, no promesas de marketing.**
 
-✅ **Infraestructura 100% propiedad tuya** — No renta, construyo sistemas tuyos  
+✅ **Infraestructura 100% propiedad propia** — servicio gratuito para mis aliados  
 ✅ **Automatización inteligente** — IA operando 24/7 mientras duermes  
 ✅ **ROI verificable** — Sabes exactamente qué gana y cuánto cuesta  
 ✅ **Especialistas en Tolima** — Entendemos la geografía, culturas y mercados locales  
@@ -207,7 +207,7 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - **Backend:** Cloudflare Workers (Edge) + D1 (SQLite) + R2 (Storage)
 - **Frontend:** React 18 + Vite + TypeScript + Tailwind
 - **Autenticación:** JWT + RBAC multi-tenant + AES-256
-- **Filosofía:** Propiedad total cliente, sin dependencia terceros, escalable 10x
+- **Filosofía:** Propiedad total, sin dependencia terceros, escalable 10x
 
 ### Productos en Producción
 
@@ -217,7 +217,7 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Reportes exportables (PDF/Excel)
 - Costo: $65-95 USD/mes (vs $1,200+ HubSpot)
 
-#### **TevezMarketing-RSS Plugin** ✅
+#### **TevezMarketing RSS Plugin** ✅
 - Gestión centralizado de feeds RSS
 - Publicación automática a WordPress + canales
 - 500+ feeds/mes, 99.8% fetch rate
@@ -243,13 +243,13 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Sistema cotizaciones integrado
 - 99.97% uptime
 
-  #### **TM Tracking** ✅ Producción
+  #### **TM Tracking ✅** 
 - Script JavaScript compilado, container-based (ID único TM-ABC123 por usuario)
 - Eventos → POST /track/{container_id} → CAPI Worker → capi_events_db, status='pending'
 - Compatible con integraciones: Facebook, Google, TikTok, Custom (automáticamente enrutados)
 - Costo: Incluido en infraestructura base ($65-95 USD/mes infrastructure total)
 
-  #### **TevezMarketing-GEO Plugin**
+  #### **TevezMarketing GEO Plugin**
 - REST API + Cache en D1, Worker genera metadatos adaptativos (geo, UTM, device, segmentos)
 - JSON-LD optimizado para IA + inyección asíncrona en DOM (no bloquea render)
 - Metadatos por post (metabox editor), fallbacks configurables, seguridad HMAC SHA256
@@ -285,7 +285,7 @@ CIERRE (Follow-up automático, propuestas, tracking)
 - Asignar % a cada canal según participación real
 - Ejemplo real: 20% Meta + 20% Google + 30% Email + 30% Contenido = $10k venta
 
-### CAPI Integración (Server-Side)
+### CAPI Integración TM Traking
 - Problema: iOS 14+ bloqueó pixels, Meta pierde 30-40% conversiones
 - Solución: Enviar conversiones desde servidor a Meta (server-to-server)
 - Resultado: Recuperar conversiones perdidas, algoritmo optimiza mejor
@@ -425,13 +425,14 @@ Sin intervención humana pasos 1-3. Solo humano en cierre.
 
 ### 🟢 EN PRODUCCIÓN
 - **TM Quotes:** CRM propio, 5+ clientes, 99.97% uptime
-- **RSS v2.5.0:** 8+ instalaciones, 500+ feeds/mes, 99.8% fetch
-- **Dynamics v3.1.0:** 7 clientes, 99.99% uptime, 10ms latencia
-- **TM-Propio:** Dashboard MVP+, 10+ clientes
-- **CTA Inteligente:** Integrado Dynamics, testing continuo
+- **plugin RSS :** 8+ instalaciones, 500+ feeds/mes, 99.8% fetch
+- **plugin Dynamics:** secciones dinamicos, preguntas o servicios dinamicos server-side
+- **TM Metricas:** Dashboard especializada+, 10+ clientes
+- **plugin CTA:** llamados a la accion dinamicos, segun el dia y hora
+- **plugin GEO:** JSON-LD dinamico en tiempo real, server-side
 
 ### 🟡 EN DESARROLLO
-- **Quotes Gestor Cotizaciones (Beta):** Sept 2024
+
 - **Agente Email Autónomo:** Dic 2024
 - **Agente Content Marketing:** Q1 2025
 
@@ -466,9 +467,9 @@ Sin intervención humana pasos 1-3. Solo humano en cierre.
 **Solución Desplegada:**
 - TevezMarketing Dynamics: 5 variantes de landing por keyword + ubicación
 - TM Quotes CRM: Scoring automático y alertas
-- CTA Inteligente: Botones que cambian por hora/día
+- plugin CTA: Botones que cambian por hora/día
 - Tevia Chat: Atención 24/7 de prospectos
-- CAPI: Recuperar conversiones iOS
+- IM Traking: Recuperar conversiones iOS
 
 **Resultados (3 meses después)**
 
@@ -637,7 +638,7 @@ Sin intervención humana pasos 1-3. Solo humano en cierre.
 
 ## 💡 **FILOSOFÍA Y VALORES**
 
-> **"Tu negocio merece crecer. Tu dinero merece funcionar. Tu presupuesto es sagrado. Nosotros lo protegemos."**
+> **"Tu negocio merece crecer. Tu dinero merece respeto. Tu presupuesto es sagrado. Nosotros lo protegemos."**
 
 ### 🎯 **Misión**
 Transformar negocios locales del Tolima en máquinas de ventas digitales automáticas.
@@ -660,7 +661,7 @@ Ser el aliado #1 en infraestructura digital para empresas que quieren escalar si
 ✅ Mido cada peso invertido  
 ✅ Optimizo continuamente basado en datos  
 ✅ Te capacito para operar el sistema  
-✅ Apoyo gratis a emisoras y ONGs  
+✅ Apoyo gratuito a emisoras, ONGs y proyectos sociales sostenibles.
 
 ---
 
